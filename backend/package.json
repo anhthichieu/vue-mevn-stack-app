@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for mevn",
+  "main": "app.js",
+  "repository": "https://github.com/anhthichieu/vue-mevn-stack-app",
+  "author": "anhthichieu",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.1",
+    "mongoose": "^6.1.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
+}
